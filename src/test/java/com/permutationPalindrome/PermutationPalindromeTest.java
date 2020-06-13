@@ -29,7 +29,7 @@ public class PermutationPalindromeTest {
     }
 
     @Test
-    public void returnsFalseWhenSentenceIsNotAPermutationPalindrome() {
+    public void returnsFalseWhenWordIsNotAPermutationPalindrome() {
         final String word = "car";
         assertFalse(permutationPalindrome.isPermutationPalindrome(word));
     }
