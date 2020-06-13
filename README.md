@@ -4,7 +4,7 @@ quite useful as it allows developers to find untested parts of their codebase, i
 
 To ensure high quality tests which are able to catch bugs and give us confidence that the software will work after future changes, we have used a mutation testing framework called `pit` which determines how much of our code is actually being "tested by" our unit tests. 
 
-The mutation testing framework introduces small changes (eg changing ">" into "<" or "--" into "++") called `mutants` into our byte code and then execute our tests to see if the change has been detected by the unit tests.
+The mutation testing framework introduces small changes (eg changing ">" into "<" or "--" into "++") called `mutants` into our byte code and then executes our tests to see if the change has been detected by the unit tests.
 
 If our `tests fail`, then the `mutation is killed`. 
 If our `tests pass` then the `mutation lived` which means that the mutant is actually `not tested by the unit tests`.
